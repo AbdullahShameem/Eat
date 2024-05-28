@@ -1,0 +1,129 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav .fa-cart-plus {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#cart .head {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-total {
+    text-align: center;
+}
+
+.cart-total h2 {
+    margin-bottom: 20px;
+}
+
+.cart-total button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cart-total button:hover {
+    background-color: #0056b3;
+}
+
+#payment-method {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#payment-form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+#payment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#payment-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#payment-form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#payment-form button:hover {
+    background-color: #218838;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .text {
+    margin-bottom: 20px;
+}
+
+.footer .text h2 {
+    margin-bottom: 10px;
+}
